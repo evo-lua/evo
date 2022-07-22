@@ -3,6 +3,8 @@ local Evo = {}
 local uv = require("uv")
 local ffi = require("ffi")
 
+local args = { ... }
+
 function Evo:ProcessUserInput()
 	-- There's always one argument, the runtime itself (but it's stored at index "0", so Lua doesn't count it)
 	local hasCommandLineArguments = (#args > 0)

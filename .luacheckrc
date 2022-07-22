@@ -15,10 +15,6 @@ globals = {
 	"describe",
 	"it",
 
-	-- Builtins
-	--- Luvi
-	"args",
-
 	-- evo-luvi
 	"dump",
 	"path",
